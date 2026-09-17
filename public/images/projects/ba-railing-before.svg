@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#171513"/>
+  <rect x="50" y="370" width="700" height="90" fill="#29231d" stroke="#3d3329" stroke-width="2"/>
+  
+  <!-- Uneven wobbly railing posts -->
+  <line x1="120" y1="370" x2="115" y2="210" stroke="#78350f" stroke-width="6"/>
+  <line x1="280" y1="370" x2="284" y2="215" stroke="#78350f" stroke-width="6"/>
+  <line x1="450" y1="370" x2="446" y2="205" stroke="#78350f" stroke-width="6"/>
+  <line x1="620" y1="370" x2="625" y2="220" stroke="#78350f" stroke-width="6"/>
+
+  <!-- Sagging handrail -->
+  <path d="M 90,210 Q 280,230 450,210 Q 550,225 650,218" fill="none" stroke="#92400e" stroke-width="8"/>
+
+  <!-- Sparse crooked pickets with hazardous wide gaps -->
+  <g stroke="#b45309" stroke-width="2">
+    <line x1="180" y1="215" x2="182" y2="370"/>
+    <line x1="340" y1="220" x2="338" y2="370"/>
+    <line x1="400" y1="218" x2="403" y2="370"/>
+    <line x1="520" y1="215" x2="517" y2="370"/>
+    <line x1="580" y1="220" x2="583" y2="370"/>
+  </g>
+
+  <!-- Rust drips on concrete -->
+  <path d="M 115,370 L 115,410 L 125,410 L 125,370 Z" fill="#9a3412"/>
+  <path d="M 445,370 L 445,420 L 455,420 L 455,370 Z" fill="#9a3412"/>
+
+  <g transform="translate(40, 40)">
+    <rect width="200" height="32" rx="4" fill="#451a03" stroke="#b45309" stroke-width="1.5"/>
+    <text x="100" y="21" fill="#fcd34d" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="1">BEFORE: WOBBLY & UNSAFE</text>
+  </g>
+</svg>

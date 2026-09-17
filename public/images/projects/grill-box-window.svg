@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14161b"/>
+      <stop offset="100%" stop-color="#1d2027"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgGrad6)"/>
+
+  <!-- Window Wall Aperture -->
+  <rect x="220" y="70" width="360" height="360" fill="#1b1e25" stroke="#374151" stroke-width="4"/>
+
+  <!-- Inner Glass Window Indication -->
+  <rect x="250" y="100" width="140" height="300" fill="#202530" stroke="#374151" stroke-width="1"/>
+  <rect x="410" y="100" width="140" height="300" fill="#202530" stroke="#374151" stroke-width="1"/>
+
+  <!-- Box Grill Projection Perspective -->
+  <!-- Top and Bottom Projection Slopes -->
+  <polygon points="200,60 600,60 580,75 220,75" fill="#2d3340" stroke="#4b5563"/>
+  <polygon points="200,440 600,440 580,425 220,425" fill="#2d3340" stroke="#4b5563"/>
+  <!-- Sides -->
+  <polygon points="200,60 220,75 220,425 200,440" fill="#252a35" stroke="#4b5563"/>
+  <polygon points="600,60 580,75 580,425 600,440" fill="#252a35" stroke="#4b5563"/>
+
+  <!-- Main Front Grill Frame -->
+  <rect x="200" y="60" width="400" height="380" fill="none" stroke="#4b5563" stroke-width="4"/>
+
+  <!-- Vertical Solid Square Bars -->
+  <g stroke="#9ca3af" stroke-width="3">
+    <line x1="240" y1="60" x2="240" y2="440"/>
+    <line x1="280" y1="60" x2="280" y2="440"/>
+    <line x1="320" y1="60" x2="320" y2="440"/>
+    <line x1="360" y1="60" x2="360" y2="440"/>
+    <line x1="400" y1="60" x2="400" y2="440"/>
+    <line x1="440" y1="60" x2="440" y2="440"/>
+    <line x1="480" y1="60" x2="480" y2="440"/>
+    <line x1="520" y1="60" x2="520" y2="440"/>
+    <line x1="560" y1="60" x2="560" y2="440"/>
+  </g>
+
+  <!-- Horizontal Ties and Ornamental Diamonds -->
+  <line x1="200" y1="150" x2="600" y2="150" stroke="#d97706" stroke-width="2"/>
+  <line x1="200" y1="250" x2="600" y2="250" stroke="#d97706" stroke-width="2"/>
+  <line x1="200" y1="350" x2="600" y2="350" stroke="#d97706" stroke-width="2"/>
+
+  <!-- Wall Grout Lugs -->
+  <rect x="185" y="100" width="15" height="15" fill="#d97706"/>
+  <rect x="185" y="240" width="15" height="15" fill="#d97706"/>
+  <rect x="185" y="380" width="15" height="15" fill="#d97706"/>
+  <rect x="600" y="100" width="15" height="15" fill="#d97706"/>
+  <rect x="600" y="240" width="15" height="15" fill="#d97706"/>
+  <rect x="600" y="380" width="15" height="15" fill="#d97706"/>
+
+  <g transform="translate(480, 20)">
+    <rect width="250" height="34" rx="6" fill="#1e222b" stroke="#374151" stroke-width="1"/>
+    <circle cx="18" cy="17" r="4" fill="#d97706"/>
+    <text x="32" y="22" fill="#e5e7eb" font-family="'Outfit', sans-serif" font-size="13" font-weight="600">Box-Projection Window Grill</text>
+  </g>
+</svg>

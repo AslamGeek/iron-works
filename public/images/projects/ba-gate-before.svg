@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#171513"/>
+  <!-- Weathered pillars -->
+  <rect x="70" y="80" width="70" height="380" fill="#2d2822" stroke="#423930" stroke-width="2"/>
+  <rect x="660" y="80" width="70" height="380" fill="#2d2822" stroke="#423930" stroke-width="2"/>
+  
+  <!-- Damaged Ground Track -->
+  <line x1="60" y1="450" x2="740" y2="450" stroke="#5c4431" stroke-width="4"/>
+
+  <!-- Sagging, crooked old gate -->
+  <g transform="rotate(3 140 120)">
+    <rect x="140" y="130" width="500" height="310" fill="#25211d" stroke="#844a2b" stroke-width="4"/>
+    
+    <!-- Bent and irregular bars -->
+    <g stroke="#925c38" stroke-width="3">
+      <line x1="180" y1="130" x2="183" y2="440"/>
+      <line x1="220" y1="130" x2="217" y2="440"/>
+      <line x1="260" y1="130" x2="265" y2="440"/>
+      <line x1="300" y1="130" x2="298" y2="440"/>
+      <line x1="340" y1="130" x2="344" y2="440"/>
+      <line x1="380" y1="130" x2="378" y2="440"/>
+      <line x1="420" y1="130" x2="424" y2="440"/>
+      <line x1="460" y1="130" x2="458" y2="440"/>
+      <line x1="500" y1="130" x2="505" y2="440"/>
+      <line x1="540" y1="130" x2="538" y2="440"/>
+      <line x1="580" y1="130" x2="583" y2="440"/>
+      <line x1="620" y1="130" x2="618" y2="440"/>
+    </g>
+
+    <!-- Heavy rust patches along the bottom -->
+    <path d="M 140,380 Q 240,410 340,370 Q 440,420 540,380 Q 590,410 640,390 L 640,440 L 140,440 Z" fill="#78350f" opacity="0.85"/>
+  </g>
+
+  <!-- Broken Wheel Detail -->
+  <ellipse cx="610" cy="460" rx="12" ry="7" fill="#451a03" stroke="#b45309" transform="rotate(-15 610 460)"/>
+
+  <!-- Condition Badge -->
+  <g transform="translate(40, 40)">
+    <rect width="180" height="32" rx="4" fill="#451a03" stroke="#b45309" stroke-width="1.5"/>
+    <text x="90" y="21" fill="#fcd34d" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="1">BEFORE: CORRODED & SAGGING</text>
+  </g>
+</svg>

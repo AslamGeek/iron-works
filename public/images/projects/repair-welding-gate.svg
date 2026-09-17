@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14161b"/>
+      <stop offset="100%" stop-color="#1d2027"/>
+    </linearGradient>
+    <radialGradient id="weldLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="1"/>
+      <stop offset="30%" stop-color="#f59e0b" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#d97706" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#b45309" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgGrad8)"/>
+
+  <!-- Gate Post & Broken/Repaired Joint -->
+  <rect x="180" y="80" width="60" height="360" fill="#242832" stroke="#374151" stroke-width="3"/>
+  <rect x="240" y="100" width="380" height="320" fill="#181a20" stroke="#4b5563" stroke-width="4"/>
+
+  <!-- Internal Grid -->
+  <line x1="240" y1="200" x2="620" y2="200" stroke="#374151" stroke-width="2"/>
+  <line x1="240" y1="300" x2="620" y2="300" stroke="#374151" stroke-width="2"/>
+  <line x1="340" y1="100" x2="340" y2="420" stroke="#374151" stroke-width="2"/>
+  <line x1="440" y1="100" x2="440" y2="420" stroke="#374151" stroke-width="2"/>
+  <line x1="540" y1="100" x2="540" y2="420" stroke="#374151" stroke-width="2"/>
+
+  <!-- Top Heavy Barrel Hinge -->
+  <rect x="215" y="130" width="40" height="60" rx="6" fill="#4b5563" stroke="#9ca3af" stroke-width="2"/>
+  <!-- Bottom Repaired Hinge with Reinforced Gusset -->
+  <rect x="215" y="320" width="40" height="65" rx="6" fill="#374151" stroke="#d97706" stroke-width="2"/>
+  <!-- Reinforcing Triangular Gusset Plate -->
+  <polygon points="180,395 240,395 180,340" fill="#d97706" opacity="0.9"/>
+
+  <!-- Arc Welding Glow Point -->
+  <circle cx="235" cy="355" r="70" fill="url(#weldLight)"/>
+  
+  <!-- Weld Bead Texture (Bead scallops) -->
+  <path d="M 235,325 Q 240,332 235,340 Q 240,348 235,355 Q 240,363 235,370 Q 240,378 235,385" fill="none" stroke="#fef08a" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Welding Torch / Electrode Holder Graphic representation -->
+  <line x1="340" y1="280" x2="238" y2="353" stroke="#f59e0b" stroke-width="4"/>
+  <rect x="330" y="270" width="45" height="15" rx="3" transform="rotate(-35 330 270)" fill="#4b5563"/>
+
+  <!-- Badge -->
+  <g transform="translate(460, 20)">
+    <rect width="280" height="34" rx="6" fill="#1e222b" stroke="#374151" stroke-width="1"/>
+    <circle cx="18" cy="17" r="4" fill="#d97706"/>
+    <text x="32" y="22" fill="#e5e7eb" font-family="'Outfit', sans-serif" font-size="13" font-weight="600">On-Site Arc Welding & Hinge Repair</text>
+  </g>
+</svg>

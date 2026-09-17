@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#121316"/>
+
+  <!-- Solid restored pillar and gate frame -->
+  <rect x="180" y="80" width="70" height="380" fill="#252932" stroke="#3e4554" stroke-width="2"/>
+  <rect x="250" y="110" width="380" height="330" fill="#181a20" stroke="#475569" stroke-width="4"/>
+
+  <!-- Restored True Level Line -->
+  <line x1="250" y1="440" x2="630" y2="440" stroke="#10b981" stroke-width="2"/>
+  <rect x="615" y="440" width="20" height="5" fill="#10b981"/>
+
+  <!-- Heavy Replacement Barrel Hinge with Deep Penetration Arc Welds -->
+  <rect x="230" y="150" width="35" height="65" rx="6" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+  <circle cx="247" cy="182" r="5" fill="#f59e0b"/>
+
+  <!-- Gusset Stiffener Plate (Welded) -->
+  <polygon points="215,220 265,220 215,150" fill="#d97706" opacity="0.9"/>
+  <polygon points="250,215 285,215 250,170" fill="#b45309" opacity="0.9"/>
+
+  <!-- Smooth gold/bronze weld seams -->
+  <path d="M 230,150 L 230,215" stroke="#f59e0b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 265,150 L 265,215" stroke="#f59e0b" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Bottom hinge -->
+  <rect x="230" y="340" width="35" height="65" rx="6" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="215,410 265,410 215,340" fill="#d97706" opacity="0.9"/>
+
+  <g transform="translate(40, 40)">
+    <rect width="210" height="32" rx="4" fill="#064e3b" stroke="#10b981" stroke-width="1.5"/>
+    <text x="105" y="21" fill="#a7f3d0" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="1">AFTER: DEEP PENETRATION WELD</text>
+  </g>
+</svg>

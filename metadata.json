@@ -1,0 +1,6 @@
+{
+  "name": "Proddatur Iron Works",
+  "description": "Custom iron fabrication, arc welding, gates, doors, railings, window grills, and repairs in Proddatur, Andhra Pradesh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

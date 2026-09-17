@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14161b"/>
+      <stop offset="100%" stop-color="#1d2027"/>
+    </linearGradient>
+    <pattern id="grid2" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#232731" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bgGrad2)"/>
+  <rect width="800" height="500" fill="url(#grid2)" opacity="0.6"/>
+
+  <!-- Concrete Columns -->
+  <rect x="80" y="80" width="70" height="380" fill="#252932" stroke="#374151" stroke-width="2"/>
+  <rect x="650" y="80" width="70" height="380" fill="#252932" stroke="#374151" stroke-width="2"/>
+
+  <!-- Left Gate Leaf -->
+  <g transform="translate(155, 120)">
+    <rect width="235" height="320" fill="#181a20" stroke="#4b5563" stroke-width="4" rx="2"/>
+    <!-- Hinges -->
+    <rect x="-10" y="30" width="16" height="30" fill="#d97706" rx="3"/>
+    <rect x="-10" y="240" width="16" height="30" fill="#d97706" rx="3"/>
+
+    <!-- Pickets -->
+    <g stroke="#9ca3af" stroke-width="3">
+      <line x1="30" y1="20" x2="30" y2="300"/>
+      <line x1="60" y1="20" x2="60" y2="300"/>
+      <line x1="90" y1="20" x2="90" y2="300"/>
+      <line x1="120" y1="20" x2="120" y2="300"/>
+      <line x1="150" y1="20" x2="150" y2="300"/>
+      <line x1="180" y1="20" x2="180" y2="300"/>
+      <line x1="210" y1="20" x2="210" y2="300"/>
+    </g>
+
+    <!-- Arch Top & Ornament -->
+    <path d="M 0,60 Q 117,10 235,60" fill="none" stroke="#d97706" stroke-width="3"/>
+    <rect x="220" y="140" width="16" height="40" fill="#b45309" rx="2"/>
+  </g>
+
+  <!-- Right Gate Leaf -->
+  <g transform="translate(410, 120)">
+    <rect width="235" height="320" fill="#181a20" stroke="#4b5563" stroke-width="4" rx="2"/>
+    <!-- Hinges -->
+    <rect x="230" y="30" width="16" height="30" fill="#d97706" rx="3"/>
+    <rect x="230" y="240" width="16" height="30" fill="#d97706" rx="3"/>
+
+    <!-- Pickets -->
+    <g stroke="#9ca3af" stroke-width="3">
+      <line x1="25" y1="20" x2="25" y2="300"/>
+      <line x1="55" y1="20" x2="55" y2="300"/>
+      <line x1="85" y1="20" x2="85" y2="300"/>
+      <line x1="115" y1="20" x2="115" y2="300"/>
+      <line x1="145" y1="20" x2="145" y2="300"/>
+      <line x1="175" y1="20" x2="175" y2="300"/>
+      <line x1="205" y1="20" x2="205" y2="300"/>
+    </g>
+
+    <!-- Arch Top & Ornament -->
+    <path d="M 0,60 Q 117,10 235,60" fill="none" stroke="#d97706" stroke-width="3"/>
+    <rect x="-1" y="140" width="14" height="40" fill="#b45309" rx="2"/>
+  </g>
+
+  <g transform="translate(480, 30)">
+    <rect width="250" height="34" rx="6" fill="#1e222b" stroke="#374151" stroke-width="1"/>
+    <circle cx="18" cy="17" r="4" fill="#d97706"/>
+    <text x="32" y="22" fill="#e5e7eb" font-family="'Outfit', sans-serif" font-size="13" font-weight="600">Double-Leaf Swing Gate</text>
+  </g>
+</svg>

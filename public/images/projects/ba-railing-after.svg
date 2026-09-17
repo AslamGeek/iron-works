@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#121316"/>
+  <rect x="50" y="370" width="700" height="90" fill="#252932" stroke="#3e4554" stroke-width="2"/>
+  
+  <!-- Base Anchor Plates with Bolting -->
+  <g fill="#d97706">
+    <rect x="100" y="362" width="36" height="10" rx="2"/>
+    <rect x="250" y="362" width="36" height="10" rx="2"/>
+    <rect x="400" y="362" width="36" height="10" rx="2"/>
+    <rect x="550" y="362" width="36" height="10" rx="2"/>
+    <rect x="670" y="362" width="36" height="10" rx="2"/>
+  </g>
+
+  <!-- Heavy Square Posts -->
+  <rect x="110" y="150" width="16" height="215" fill="#475569"/>
+  <rect x="260" y="150" width="16" height="215" fill="#475569"/>
+  <rect x="410" y="150" width="16" height="215" fill="#475569"/>
+  <rect x="560" y="150" width="16" height="215" fill="#475569"/>
+  <rect x="680" y="150" width="16" height="215" fill="#475569"/>
+
+  <!-- Straight Solid Handrail with Bronze Finish -->
+  <rect x="80" y="135" width="630" height="18" rx="4" fill="#d97706" stroke="#b45309" stroke-width="2"/>
+
+  <!-- Uniform Child-Safe Pickets -->
+  <g stroke="#94a3b8" stroke-width="2.5">
+    <line x1="145" y1="155" x2="145" y2="365"/>
+    <line x1="175" y1="155" x2="175" y2="365"/>
+    <line x1="205" y1="155" x2="205" y2="365"/>
+    <line x1="235" y1="155" x2="235" y2="365"/>
+    
+    <line x1="295" y1="155" x2="295" y2="365"/>
+    <line x1="325" y1="155" x2="325" y2="365"/>
+    <line x1="355" y1="155" x2="355" y2="365"/>
+    <line x1="385" y1="155" x2="385" y2="365"/>
+
+    <line x1="445" y1="155" x2="445" y2="365"/>
+    <line x1="475" y1="155" x2="475" y2="365"/>
+    <line x1="505" y1="155" x2="505" y2="365"/>
+    <line x1="535" y1="155" x2="535" y2="365"/>
+
+    <line x1="595" y1="155" x2="595" y2="365"/>
+    <line x1="625" y1="155" x2="625" y2="365"/>
+    <line x1="655" y1="155" x2="655" y2="365"/>
+  </g>
+
+  <!-- Horizontal reinforcing intermediate bar -->
+  <line x1="100" y1="260" x2="690" y2="260" stroke="#334155" stroke-width="3"/>
+
+  <g transform="translate(40, 40)">
+    <rect width="210" height="32" rx="4" fill="#064e3b" stroke="#10b981" stroke-width="1.5"/>
+    <text x="105" y="21" fill="#a7f3d0" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="1">AFTER: ARCHITECTURAL SAFETY</text>
+  </g>
+</svg>
